@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter merlinx lancelot,$(TARGET_DEVICE)),)
+ifneq ($(filter merlinx shiva,$(TARGET_DEVICE)),)
 
 endif
