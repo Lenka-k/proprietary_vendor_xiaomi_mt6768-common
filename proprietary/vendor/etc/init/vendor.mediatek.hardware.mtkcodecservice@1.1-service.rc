@@ -1,5 +1,6 @@
 service mtkcodecservice-1-1 /vendor/bin/hw/vendor.mediatek.hardware.mtkcodecservice@1.1-service
-    interface vendor.mediatek.hardware.mtkcodecservice@1.1::IMtkCodecService default
+#    interface vendor.mediatek.hardware.mtkcodecservice@1.1::IMtkCodecService default    #interface lines are only for HAL registration with hwservicemanager
+
     oneshot
     disabled
     class hal
